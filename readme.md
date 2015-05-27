@@ -1,4 +1,4 @@
-# color-delta [![Build Status](http://img.shields.io/travis/matiassingers/color-delta.svg?style=flat-square)](https://travis-ci.org/matiassingers/color-delta) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/color-delta.svg?style=flat-square)](https://gemnasium.com/matiassingers/color-delta)
+# color-delta [![Build Status](http://img.shields.io/travis/matiassingers/color-delta.svg?style=flat-square)](https://travis-ci.org/matiassingers/color-delta) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/color-delta.svg?style=flat-square)](https://gemnasium.com/matiassingers/color-delta) [![Coverage Status](http://img.shields.io/coveralls/matiassingers/color-delta.svg?style=flat-square)](https://coveralls.io/r/matiassingers/color-delta)
 > calculate the diff between 2 colors
 
 Accepts almost all types of color strings, see [TinyColor](https://github.com/bgrins/TinyColor#accepted-string-input) for more info.
