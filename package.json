@@ -12,6 +12,18 @@
   "bin": {
     "color-delta": "cli.js"
   },
+  "keyword": [
+    "color",
+    "calculate color",
+    "calculate color diff",
+    "color diff",
+    "color difference",
+    "lighten",
+    "darken",
+    "desaturate",
+    "saturate",
+    "adjust-hue"
+  ],
   "files": [
     "index.js",
     "cli.js"
