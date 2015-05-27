@@ -1,0 +1,35 @@
+{
+  "name": "color-delta",
+  "version": "0.1.0",
+  "description": "calculate the diff between 2 colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "color-delta": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/color-delta"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/color-delta/issues"
+  },
+  "homepage": "https://github.com/matiassingers/color-delta",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "mocha": "2.2.5"
+  }
+}
