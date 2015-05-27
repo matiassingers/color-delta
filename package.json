@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/matiassingers/color-delta",
   "dependencies": {
-    
+    "lodash.mapvalues": "3.0.1",
+    "tinycolor2": "1.1.2"
   },
   "devDependencies": {
     "mocha": "2.2.5"
