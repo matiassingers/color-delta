@@ -11,7 +11,7 @@ module.exports = function(base, target, decimals) {
   if (!target || !tinycolor(target).isValid()) {
     throw new Error('Argument `target` "' + target + '" is not a valid color.');
   }
-  
+
   // Handle equal colors
   // tinycolor.equals(base, target)
 

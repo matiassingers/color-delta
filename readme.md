@@ -63,6 +63,10 @@ Type: `String`
 Fixed number of decimals in returned values.
 
 
+## Related
+- [`sass-color-calculator`](https://github.com/matiassingers/sass-color-calculator)
+
+
 ## License
 
 MIT © [Matias Singers](http://mts.io)
