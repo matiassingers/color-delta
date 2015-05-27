@@ -4,6 +4,17 @@ var tinycolor = require('tinycolor2');
 var map = require('lodash.mapvalues');
 
 module.exports = function(base, target, decimals) {
+  if (!base || !tinycolor(base).isValid()) {
+    throw new Error('Argument `base` "' + base + '" is not a valid color.');
+  }
+
+  if (!target || !tinycolor(target).isValid()) {
+    throw new Error('Argument `target` "' + target + '" is not a valid color.');
+  }
+  
+  // Handle equal colors
+  // tinycolor.equals(base, target)
+
   base = tinycolor(base).toHsl();
   target = new tinycolor(target).toHsl();
 

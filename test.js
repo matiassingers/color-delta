@@ -4,6 +4,26 @@ var assert = require('assert');
 var colorDelta = require('./');
 
 describe('colorDelta', function(){
+  it('should throw on invalid arguments', function() {
+    assert.throws(function() {
+      colorDelta();
+    }, /valid color/);
+
+    assert.throws(function() {
+      colorDelta('#bada55');
+    }, /valid color/);
+  });
+
+  it('should throw on invalid colors', function() {
+    assert.throws(function() {
+      colorDelta('#bada55a');
+    }, /valid color/);
+
+    assert.throws(function() {
+      colorDelta('#bada55', '#b0bca7a');
+    }, /valid color/);
+  });
+
   it('should return object with diff', function() {
     assert.deepEqual(colorDelta('#bada55', '#b0bca7'), {
       hue: 19.849624060150404,
