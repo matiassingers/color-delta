@@ -46,22 +46,26 @@ $ color-delta --help
 
 ## API
 
-#### Base
+### colorDelta(base, target, [decimals])
 
+#### base
+
+*Required*  
 Type: `String`  
 
 Base color to calculate difference from.
 
-#### Target
+#### target
 
+*Required*  
 Type: `String`  
 
 Target color to calculate difference to.
 
-#### Decimals
+#### decimals
 
+*Optional*  
 Type: `String`  
-*optional*  
 
 Fixed number of decimals in returned values.
 
