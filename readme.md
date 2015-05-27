@@ -3,6 +3,9 @@
 
 Accepts almost all types of color strings, see [TinyColor](https://github.com/bgrins/TinyColor#accepted-string-input) for more info.
 
+Partially extracted from [Sass Colour Function Calculator](http://razorjam.github.io/sasscolourfunctioncalculator/).
+
+
 ## Install
 
 ```sh
