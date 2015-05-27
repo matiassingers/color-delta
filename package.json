@@ -1,6 +1,6 @@
 {
   "name": "color-delta",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "calculate the diff between 2 colors",
   "main": "index.js",
   "scripts": {
